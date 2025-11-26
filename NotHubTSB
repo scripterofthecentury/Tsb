@@ -1,11 +1,11 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "DYHUB | The Strongest Battleground (dsc.gg/dyhub)",
+   Name = "Not Hub | The Strongest Battlegrounds",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "DYHUB | dsc.gg/dyhub",
-   LoadingSubtitle = "Powered by DYHUB TEAM",
-   ShowText = "gurt yo", -- for mobile users to unhide rayfield, change if you'd like
+   LoadingTitle = "DYHUB",
+   LoadingSubtitle = "Powered by Not Hub Team",
+   ShowText = "Not Hub", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "Dark Blue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -16,14 +16,9 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = ud, -- Create a custom folder for your hub/game
-      FileName = "DYHUBTSB"
+      FileName = "Not Hub TSB"
    },
 
-   Discord = {
-      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
-   },
 
    KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
